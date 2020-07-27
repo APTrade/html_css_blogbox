@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gradient-bg-color: linear-gradient(to right bottom, rgba(46, 52, 64, .8), rgba(59, 66, 82, .8))
+}
+
+html{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #ECEFF4;
+    background-color: #4C566A;
+    padding: 0 1.5rem;
+   /* The next lines are optional and should be removed in production */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px .8rem 1rem rgba(216, 222, 233, 0.05);
+    background-color: #3B4252;
+}
+
+.img-data{
+    height: 25rem;
+    position: relative;
+    z-index: 1;
+}
+
+.backgroud-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("img/img.jpg")
+}
