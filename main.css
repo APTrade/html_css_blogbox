@@ -34,7 +34,9 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    box-shadow: 2px .8rem 1rem rgba(216, 222, 233, 0.1);
+    box-shadow: 
+        0 1rem 2rem 0px rgba(46, 52, 64, .5),
+        0 .2rem .4rem 0px rgba(46, 52, 64, .8);
     background-color: #3B4252;
 }
 
